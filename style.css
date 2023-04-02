@@ -1,0 +1,151 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E0E8FF;
+}
+
+main {
+    margin: auto;
+    width: 350px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main .header-image {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -ms-border-radius: 20px 20px 0px 0px;
+    -o-border-radius: 20px 20px 0px 0px;
+}
+
+
+main .content h2 {
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #212849;
+}
+
+main .content p {
+    font-size: 14px;
+    color: #b5b5b5;
+}
+
+
+main .content .music {
+    width: 100%;
+    background-color: #F8F9FE;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; 
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+main .content .music img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+main .content .music .icon {
+    display: flex;
+}
+
+main .content .music .icon h4 {
+    margin: 0px 0px 3px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #212849;
+}
+
+main .content .music .icon p {
+    margin: 0;
+    font-size: 12px;
+    color: #717FA6;
+    vertical-align: middle;
+}
+
+main .content .music .icon a {
+    color: #382AE1;
+    font-weight: bold;
+}
+
+main .content button {
+    background-color: #382AE1;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 10px 10px 3px #DBD8F8;
+}
+
+main .content .cancle {
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #a5a5a5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #766CF1;
+}
+main .content .cancle:hover   {
+    color: rgb(26, 25, 28);
+}
+
+main .content  button:hover {
+    background-color: #766CF1;
+}
+
+
+.background-color {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.content {
+    padding: 20px;
+}
+
+
+
+.attribution {
+    display: none
+}
+
+
+@media (max-width: 360px) {
+    main {
+        width: 300px;
+    }
+    
+}
